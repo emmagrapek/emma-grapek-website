@@ -1,0 +1,251 @@
+/*CSS BROWSER RESET
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+
+/*STYLES*/
+
+@font-face {
+	font-family:'Mercury';
+	src: url('../fonts/MercuTexG3Sem.otf');
+}
+
+body {
+	font-family: "Mercury";
+	/*font-family: "Georgia";*/
+	/*font-family: "Times New Roman", Times, serif;	*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: 100%;
+}
+
+h1 {
+	color: #0000FF;
+	/*font-size: 140px;*/
+	font-size: 130px;
+	/*font-size: 118px;*/
+	border-bottom: 1px solid blue;
+	text-align: center;	
+	padding-bottom: 3%;
+	line-height: 98%;
+}
+
+ul, li {
+	font-size: 13px;
+	list-style: none;
+	text-decoration: none;
+	color: #0000FF;
+	padding-left: 0;
+}
+
+a {
+	color: blue;
+	list-style: none;
+	text-decoration: none;
+}
+
+a:hover {
+	
+	text-decoration: none;
+}
+/*
+li {
+	float: left;
+	font-size: 18px;
+	display: block;
+	padding-right: 15px;
+}*/
+
+.arrow {
+	font-family: "Mercury";
+	font-size: 48px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: blue;
+	padding-bottom: 40%;
+}
+
+.nav1 li {
+	margin-top: -50px;
+	font-size: 48px;
+	text-align: center;
+	padding-top: 50%;
+	padding-bottom: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.back-arrow {
+	text-align: center;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 35%;
+	padding-bottom: 20px;
+	text-decoration: none;
+	font-size: 36px;
+}
+
+.up-arrow {
+	text-align: center;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50%;
+	padding-bottom: 20px;
+	text-decoration: none;
+	font-size: 48px;
+}
+
+.contact {
+	float: right;
+	margin-top: -80px;
+	margin-bottom: 100px;
+}
+
+.digital-paintings {
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.digital-paintings img {
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	margin-bottom: 50%;
+	width: 100%;	
+	box-shadow:  5px 3px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rnr-nightmare {
+	height: 100%;
+	/*width: 80%;*/
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.rnr-nightmare img {
+	margin-right: auto;
+	margin-left: auto;x
+	height: auto;
+	padding-bottom: 50%;
+	width: 100%;	
+}
+
+.moonie-book {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.moonie-book img {
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	width: 100%;
+	margin-bottom: 50%;	
+}
+
+.moma-gny {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.moma-gny img {
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	padding-bottom: 50%;
+	width: 100%;	
+}
+
+.bms-website {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.bms-website img {
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	width: 100%;
+	margin-bottom: 50%;	
+}
+
+
+.meat {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.meat img {
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	margin-bottom: 30%;
+	width: 100%;	
+	box-shadow:  5px 3px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.blurb {
+	margin: 0 auto 0 auto;
+	width: 80%;
+	text-align: center;
+	font-size: 28px;
+	color: blue;
+	line-height: 125%;
+	padding-bottom: 50%;
+}
