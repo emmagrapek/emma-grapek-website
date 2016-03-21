@@ -1,4 +1,4 @@
-/*CSS BROWSER RESET
+/*CSS BROWSER RESET*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -21,7 +21,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
- HTML5 display-role reset for older browsers 
+/*HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -32,50 +32,57 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
+/*blockquote, q {
 	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
-}
+}*/
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}*/
+}
 
 /*STYLES*/
 
 @font-face {
-	font-family:'Mercury';
-	src: url('../fonts/MercuTexG3Sem.otf');
+	font-family:'CenturyBold';
+	src: url('fonts/CenturyOldstyleICGBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family:'MercuryBold';
+	src: url('fonts/Mercury-TextG4Bold1.ttf') format('truetype');
 }
 
 body {
-	font-family: "Mercury";
-	/*font-family: "Georgia";*/
-	/*font-family: "Times New Roman", Times, serif;	*/
+
+	font-family: "CenturyBold", Times, serif;	
+	/*font-family: "MercuryBold";*/
 	margin-left: auto;
 	margin-right: auto;
-	width: 960px;
+	max-width: 960px;
+	min-width: 100px;
 	height: 100%;
 }
 
 h1 {
+	width: 100%;
 	color: #0000FF;
 	/*font-size: 140px;*/
-	font-size: 130px;
-	/*font-size: 118px;*/
+	/*font-size: 130px;*/
+	font-size: 120px;
 	border-bottom: 1px solid blue;
 	text-align: center;	
+	padding-top: 10%;
 	padding-bottom: 3%;
 	line-height: 98%;
 }
 
 ul, li {
 	font-size: 13px;
-	list-style: none;
 	text-decoration: none;
 	color: #0000FF;
 	padding-left: 0;
@@ -100,17 +107,19 @@ li {
 }*/
 
 .arrow {
-	font-family: "Mercury";
+	font-family: "CenturyBold";
 	font-size: 48px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 	color: blue;
+	padding-top: 7%;
 	padding-bottom: 40%;
 }
 
 .nav1 li {
+	font-family: "CenturyBold";
 	margin-top: -50px;
 	font-size: 48px;
 	text-align: center;
@@ -118,6 +127,7 @@ li {
 	padding-bottom: 50%;
 	margin-left: auto;
 	margin-right: auto;
+	display: block;
 	
 }
 

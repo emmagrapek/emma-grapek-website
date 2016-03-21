@@ -1,0 +1,12 @@
+/* Webfont: CenturyOldstyleICGBold */@font-face {
+    font-family: 'CenturyOldstyleICG';
+    src: url('CenturyOldstyleICGBold.eot'); /* IE9 Compat Modes */
+    src: url('CenturyOldstyleICGBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('CenturyOldstyleICGBold.woff') format('woff'), /* Modern Browsers */
+         url('CenturyOldstyleICGBold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('CenturyOldstyleICGBold.svg#CenturyOldstyleICGBold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
